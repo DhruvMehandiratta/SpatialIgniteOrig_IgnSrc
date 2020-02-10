@@ -1,0 +1,45 @@
+[18:17:54,887][INFO][main][IgniteKernal] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.5.0-SNAPSHOT#19691231-sha1:DEV
+>>> 2018 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: http://ignite.apache.org
+
+[18:17:54,938][INFO][main][IgniteKernal] Config URL: file:/home/bigdata/eclipse/java-mars/eclipse/workspace/SpatialIgniteOrig_IgnSrc/config/default-config.xml
+[18:17:54,977][INFO][main][IgniteKernal] IgniteConfiguration [igniteInstanceName=null, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, igfsPoolSize=1, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, igniteHome=/home/bigdata/eclipse/java-mars/eclipse/workspace/SpatialIgniteOrig_IgnSrc, igniteWorkDir=/home/bigdata/eclipse/java-mars/eclipse/workspace/SpatialIgniteOrig_IgnSrc/work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@10bdf5e5, nodeId=eb67b024-5deb-41b4-a091-d658ad2fab33, marsh=org.apache.ignite.internal.binary.BinaryMarshaller@15bfd87, marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=null, connPlc=null, enableForcibleNodeKill=false, enableTroubleshootingLog=false, srvLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi$2@44f75083, locAddr=null, locHost=null, locPort=47100, locPortRange=100, shmemPort=-1, directBuf=true, directSndBuf=false, idleConnTimeout=600000, connTimeout=5000, maxConnTimeout=600000, reconCnt=10, sockSndBuf=32768, sockRcvBuf=32768, msgQueueLimit=0, slowClientQueueLimit=0, nioSrvr=null, shmemSrv=null, usePairedConnections=false, connectionsPerNode=1, tcpNoDelay=true, filterReachableAddresses=false, ackSndThreshold=32, unackedMsgsBufSize=0, sockWriteTimeout=2000, lsnr=null, boundTcpPort=-1, boundTcpShmemPort=-1, selectorsCnt=4, selectorSpins=0, addrRslvr=null, ctxInitLatch=java.util.concurrent.CountDownLatch@2698dc7[Count = 1], stopping=false, metricsLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationMetricsListener@43d7741f], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@17baae6e, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [lsnr=null], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@5f71c76a, addrRslvr=null, clientMode=false, rebalanceThreadPoolSize=1, txCfg=org.apache.ignite.configuration.TransactionConfiguration@1d7acb34, cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, hadoopCfg=null, connectorCfg=org.apache.ignite.configuration.ConnectorConfiguration@48a242ce, odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysCacheMaxSize=104857600, pageSize=8192, concLvl=4, dfltDataRegConf=DataRegionConfiguration [name=default, maxSize=4294967296, initSize=524288000, swapPath=null, pageEvictionMode=DISABLED, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=true, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=true, checkpointPageBufSize=0], storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@4f51b3e0, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, writeThrottlingEnabled=false, walCompactionEnabled=false], activeOnStart=true, autoActivation=true, longQryWarnTimeout=3000, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, idleTimeout=0, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null], authEnabled=false, failureHnd=null, commFailureRslvr=null]
+[18:17:54,985][INFO][main][IgniteKernal] Daemon mode: off
+[18:17:54,985][INFO][main][IgniteKernal] OS: Linux 3.19.0-47-generic amd64
+[18:17:54,985][INFO][main][IgniteKernal] OS user: bigdata
+[18:17:54,986][INFO][main][IgniteKernal] PID: 19459
+[18:17:54,987][INFO][main][IgniteKernal] Language runtime: Java Platform API Specification ver. 1.8
+[18:17:54,987][INFO][main][IgniteKernal] VM information: Java(TM) SE Runtime Environment 1.8.0_65-b17 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.65-b01
+[18:17:54,988][INFO][main][IgniteKernal] VM total memory: 0.97GB
+[18:17:54,988][INFO][main][IgniteKernal] Remote Management [restart: off, REST: on, JMX (remote: off)]
+[18:17:54,989][INFO][main][IgniteKernal] Logger: JavaLogger [quiet=true, config=null]
+[18:17:54,989][INFO][main][IgniteKernal] IGNITE_HOME=/home/bigdata/eclipse/java-mars/eclipse/workspace/SpatialIgniteOrig_IgnSrc
+[18:17:54,989][INFO][main][IgniteKernal] VM arguments: [-Xmx1024m, -Dfile.encoding=UTF-8]
+[18:17:54,990][INFO][main][IgniteKernal] System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemCacheMemorySize property to change the setting.
+[18:17:55,037][INFO][main][IgniteKernal] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache']]
+[18:17:55,055][INFO][main][IgniteKernal] 3-rd party licenses can be found at: /home/bigdata/eclipse/java-mars/eclipse/workspace/SpatialIgniteOrig_IgnSrc/libs/licenses
+[18:17:55,057][WARNING][pub-#22][GridDiagnostic] Initial heap size is 32MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[18:17:55,071][SEVERE][main][IgniteKernal] Got exception while starting (will rollback startup routine).
+class org.apache.ignite.IgniteException: Failed to load class names properties file packaged with ignite binaries [file=META-INF/classnames.properties, ldr=sun.misc.Launcher$AppClassLoader@4e0e2f2a]
+	at org.apache.ignite.internal.MarshallerContextImpl.<init>(MarshallerContextImpl.java:127)
+	at org.apache.ignite.internal.GridKernalContextImpl.<init>(GridKernalContextImpl.java:484)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:886)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:2014)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1723)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1151)
+	at org.apache.ignite.internal.IgnitionEx.startConfigurations(IgnitionEx.java:1069)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:955)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:854)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:578)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:558)
+	at org.apache.ignite.Ignition.start(Ignition.java:309)
+	at IgniteStart_New.main(IgniteStart_New.java:91)
+[18:17:55,073][WARNING][main][IgniteKernal] Attempt to stop starting grid. This operation cannot be guaranteed to be successful.
