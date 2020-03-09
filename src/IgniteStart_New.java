@@ -5,10 +5,9 @@ import org.apache.ignite.cache.query.SqlFieldsQuery;
 import org.apache.ignite.configuration.CacheConfiguration;
 import org.apache.ignite.configuration.DataStorageConfiguration;
 import org.apache.ignite.configuration.IgniteConfiguration;
-
 import java.util.Collection;
 
-public class IgniteStart_New 
+public class IgniteStart_New
 {	
 	static String AREA_CACHE = "Area-Cache";
 	static String POINT_CACHE = "Point-Cache";
@@ -25,9 +24,11 @@ public class IgniteStart_New
 	{
 		//String[] datasets = {"arealm", "areawater", "pointlm", "edges"};
 		//String[] datasets = {"arealm_merge_ca", "areawater_merge_ca", "pointlm_merge_ca", "edges_merge_ca"};
-		String[] datasets = {"arealm_merge_ca", "areawater_merge_ca", "pointlm_merge_ca", "edges_merge_ca_test"};
 		
-		// String[] datasets = {"arealm_merge_ca", "edges_merge_ca"}; 
+		//String[] datasets = {"arealm_merge_ca", "areawater_merge_ca", "pointlm_merge_ca", "edges_merge_ca_test"};
+		
+		//DHRUV 2 March
+		String[] datasets = {"arealm_sample", "areawater_merge_ca", "pointlm_merge_ca", "edges_sample"};
 		String datasetPath = ""; // /home/bigdata/dataset/ignite
 		int QP;
 		
@@ -97,7 +98,6 @@ public class IgniteStart_New
 			pointCache = ignite.getOrCreateCache(pointCacheCfg);
 			edgeCache = ignite.getOrCreateCache(edgeCacheCfg);
 			waterAreaCache = ignite.getOrCreateCache(waterAreaCacheCfg);
-					
 			System.out.println("Query Parallelism: " + areaCacheCfg.getQueryParallelism());
 			
 			try {
@@ -112,7 +112,7 @@ public class IgniteStart_New
 				for(int i = 1; i < 4; i++) {
 					System.out.println("\nRUN QUERY PHASE-" + i + ">>>\n");
 					TopologicalRelations.runQueries();
-					SpatialAnalysis.runQueries();				
+					SpatialAnalysis.runQueries();		
 				}
 			}
 			catch(Exception e) {
@@ -136,6 +136,7 @@ public class IgniteStart_New
 			ignite.destroyCache(WATER_AREA_CACHE);
 		}
 		catch(Exception e) {
+			
 			e.printStackTrace();
 		}
 	}
